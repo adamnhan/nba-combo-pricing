@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "nba-combo-pricing"
+version = "0.1.0"
+description = "Market-anchored NBA same-game combination pricing and historical replay research"
+readme = "README.md"
+requires-python = ">=3.11"
+license = "MIT"
+dependencies = ["numpy>=1.26,<3", "pandas>=2.2,<3"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8,<10", "matplotlib>=3.8,<4"]
+
+[project.scripts]
+nba-combo-price = "nba_combo_pricing.pricer:main"
+nba-combo-demo = "nba_combo_pricing.demo:main"
+nba-combo-replay = "nba_combo_pricing.backtest:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"

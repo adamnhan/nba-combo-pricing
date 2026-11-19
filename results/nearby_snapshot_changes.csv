@@ -1,0 +1,5 @@
+direction,kind,comparisons,unique_checkpoints,median_seconds_apart,mean_change_cents,median_absolute_change_cents,moves_at_least_5c
+previous,spread,1,1,300.0,1.0143849746559241,1.0143849746559241,0
+previous,total,70,38,301.0,-1.6059485855371594,4.201758836684832,30
+next,spread,1,1,299.0,0.5587804124456808,0.5587804124456808,0
+next,total,35,35,300.0,-1.5427886475209869,6.129580705855497,20

@@ -1,0 +1,310 @@
+{
+  "example": true,
+  "description": "Deliberately illustrative teams, player identifiers, state and market probabilities. This is not a historical RFQ.",
+  "state": {
+    "game_id": "illustrative-game",
+    "period": 3,
+    "clock_seconds": 360,
+    "teams": [
+      1,
+      2
+    ],
+    "score": [
+      74,
+      70
+    ],
+    "players": [
+      10001,
+      10002,
+      10003,
+      10004,
+      10005,
+      10006,
+      10007,
+      10008,
+      10009,
+      10010,
+      20001,
+      20002,
+      20003,
+      20004,
+      20005,
+      20006,
+      20007,
+      20008,
+      20009,
+      20010
+    ],
+    "player_team": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "starters": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      false,
+      false,
+      false,
+      false,
+      false,
+      true,
+      true,
+      true,
+      true,
+      true,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "lineups": [
+      [
+        10001,
+        10002,
+        10003,
+        10004,
+        10005
+      ],
+      [
+        20001,
+        20002,
+        20003,
+        20004,
+        20005
+      ]
+    ],
+    "seconds_played": [
+      1400,
+      1300,
+      1250,
+      1200,
+      1150,
+      800,
+      700,
+      600,
+      350,
+      250,
+      1400,
+      1300,
+      1250,
+      1200,
+      1150,
+      800,
+      700,
+      600,
+      350,
+      250
+    ],
+    "stats": [
+      [
+        18,
+        4,
+        3,
+        3,
+        2
+      ],
+      [
+        14,
+        5,
+        4,
+        2,
+        1
+      ],
+      [
+        12,
+        3,
+        2,
+        1,
+        3
+      ],
+      [
+        10,
+        4,
+        2,
+        1,
+        1
+      ],
+      [
+        8,
+        6,
+        1,
+        0,
+        2
+      ],
+      [
+        6,
+        3,
+        1,
+        1,
+        1
+      ],
+      [
+        3,
+        2,
+        1,
+        0,
+        0
+      ],
+      [
+        2,
+        1,
+        0,
+        0,
+        1
+      ],
+      [
+        1,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        16,
+        4,
+        3,
+        2,
+        2
+      ],
+      [
+        13,
+        5,
+        4,
+        1,
+        1
+      ],
+      [
+        11,
+        3,
+        2,
+        1,
+        3
+      ],
+      [
+        9,
+        4,
+        2,
+        1,
+        1
+      ],
+      [
+        8,
+        6,
+        1,
+        1,
+        2
+      ],
+      [
+        5,
+        3,
+        1,
+        0,
+        1
+      ],
+      [
+        4,
+        2,
+        1,
+        0,
+        0
+      ],
+      [
+        2,
+        1,
+        0,
+        0,
+        1
+      ],
+      [
+        1,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        1,
+        0,
+        0,
+        0
+      ]
+    ],
+    "unavailable": [],
+    "prior_minutes": [
+      36,
+      34,
+      32,
+      30,
+      28,
+      22,
+      18,
+      16,
+      14,
+      10,
+      36,
+      34,
+      32,
+      30,
+      28,
+      22,
+      18,
+      16,
+      14,
+      10
+    ],
+    "source_event_time_utc": "2026-01-01T01:29:50+00:00",
+    "receipt_time_utc": "2026-01-01T01:30:00+00:00"
+  },
+  "legs": [
+    {
+      "ticker": "EXAMPLE-HOME-WIN",
+      "game_id": "illustrative-game",
+      "kind": "moneyline",
+      "side": "yes",
+      "minimum": 1,
+      "subject_id": 1
+    },
+    {
+      "ticker": "EXAMPLE-TOTAL-OVER-220.5",
+      "game_id": "illustrative-game",
+      "kind": "total",
+      "side": "yes",
+      "minimum": 221,
+      "subject_id": null
+    }
+  ],
+  "yes_midpoints": {
+    "EXAMPLE-HOME-WIN": 0.6,
+    "EXAMPLE-TOTAL-OVER-220.5": 0.52
+  }
+}

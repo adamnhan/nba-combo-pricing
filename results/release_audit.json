@@ -1,0 +1,11 @@
+{
+  "verified": true,
+  "files_audited": 48,
+  "relative_document_links_checked": 24,
+  "credential_pattern_scan_passed": true,
+  "personal_reference_and_local_path_scan_passed": true,
+  "no_raw_trade_or_provider_files": true,
+  "numeric_model_arrays_verified": 43,
+  "original_pricing_functions_unchanged": true,
+  "manifest_file_hashes_verified": true
+}

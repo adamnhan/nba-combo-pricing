@@ -1,0 +1,23 @@
+{
+  "verified": true,
+  "original_pricing_functions_unchanged": true,
+  "frozen_model_sha256": "25f5dc57dcae0c707cde4f558b08b074db7f4dbfe471bb65cd2a9f039a1a7652",
+  "original_historical_replay_equivalence": [
+    {
+      "premium_cents": 2,
+      "eligible_actual_trades": 28064,
+      "matched_fills": 4567,
+      "exact_ids_quantities_quotes_fees_and_pnl": true,
+      "net_pnl_usd": "-1146.7562"
+    },
+    {
+      "premium_cents": 3,
+      "eligible_actual_trades": 28064,
+      "matched_fills": 4023,
+      "exact_ids_quantities_quotes_fees_and_pnl": true,
+      "net_pnl_usd": "5302.6475"
+    }
+  ],
+  "raw_historical_rows_in_public_repo": false,
+  "notes": "Validated locally on original research inputs. Public fixtures are illustrative; aggregate CSVs cannot reconstruct historical trade rows."
+}

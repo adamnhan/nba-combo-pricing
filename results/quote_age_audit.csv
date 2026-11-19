@@ -1,0 +1,5 @@
+phase,leg,checkpoints,median_oldest_book_age,p90_oldest_book_age,max_oldest_book_age,median_newest_book_age,newest_age_over_30,score_auditable,score_changed_since_newest_quote
+earlier,spread,227,34.0,57.0,89.0,14.0,41,222,47
+earlier,total,227,34.0,58.80000000000001,90.0,12.0,39,224,44
+later,spread,242,34.0,58.0,90.0,14.0,42,240,53
+later,total,242,36.0,63.900000000000006,90.0,12.0,34,240,49

@@ -1,0 +1,144 @@
+family,quarter,premium_cents,fills,filled_games,contracts,no_overvaluation_cents,ci_low_cents,ci_high_cents,net_pnl_usd,status
+assists × assists,1,2,1,1,12.5,-12.97900068608476,,,1.8192,Too few independent filled games
+assists × assists × assists × points,1,2,1,1,7.25,-59.094792000827056,,,4.3694,Too few independent filled games
+assists × assists × points × points × points × points × points × rebounds × threes,2,2,1,1,22.43,-5.27567471666427,,,1.5842,Too few independent filled games
+assists × assists × points × points × points × points × threes × threes,1,2,1,1,94.07,-6.7779344761804,,,8.0139,Too few independent filled games
+assists × assists × points × points × points × rebounds × rebounds × rebounds × spread × total,2,2,1,1,5.43,85.13659812220942,,,-4.5391,Too few independent filled games
+assists × moneyline,2,2,1,1,57.93,-10.500457570073431,,,7.0758,Too few independent filled games
+assists × points,1,2,18,6,1038.1399999999999,5.398770242659311,-50.8090004631365,38.10305715835492,-43.32030000000001,Too few independent filled games
+assists × points,2,2,1,1,0.01,-80.18208075030101,,,0.0081,Too few independent filled games
+assists × points,4,2,1,1,22.55,61.01083356286171,,,-13.4955,Too few independent filled games
+assists × points × points,3,2,1,1,274.3,-28.491364642988557,,,81.6264,Too few independent filled games
+assists × points × points × points × rebounds × threes × threes,1,2,1,1,61.0,-3.89947208375823,,,3.59,Too few independent filled games
+assists × points × points × rebounds × rebounds,1,2,1,1,93.0,-17.96719282495916,,,18.6,Too few independent filled games
+assists × points × rebounds,1,2,3,1,390.37,63.44876698154531,,,-242.9943,Too few independent filled games
+assists × rebounds,1,2,17,8,2260.46,-16.767311951898737,-29.502573751774317,1.8938115360697927,414.0362,Too few independent filled games
+assists × rebounds,2,2,4,2,925.3499999999999,-22.54338306796123,,,221.7309,Too few independent filled games
+assists × rebounds,3,2,2,1,156.76999999999998,-3.6286676563405105,,,8.600100000000001,Too few independent filled games
+assists × rebounds × rebounds × threes,1,2,1,1,165.34,-25.80670006778922,,,44.9657,Too few independent filled games
+assists × spread,1,2,1,1,1.0,-6.21865493428254,,,0.08,Too few independent filled games
+assists × threes,1,2,2,2,11.930000000000001,1.2348838704629435,,,0.05279999999999996,Too few independent filled games
+assists × total,1,2,1,1,1.17,-45.32053698318854,,,0.5443,Too few independent filled games
+moneyline × points,1,2,59,27,5500.06,-4.128582044977753,-18.803867838102736,14.492640008191357,301.65380000000005,Direction uncertain
+moneyline × points,2,2,12,8,275.06,28.469230223079183,-41.284539168683004,47.32563250153958,-74.5949,Too few independent filled games
+moneyline × points,3,2,6,6,290.28000000000003,5.2758275061146165,-15.890658161471732,81.7621264889315,-10.984900000000001,Too few independent filled games
+moneyline × points,4,2,4,3,198.03,30.728975443823987,,,-58.2807,Too few independent filled games
+moneyline × points × points,1,2,2,2,924.9699999999999,-40.10133368114484,,,382.29069999999996,Too few independent filled games
+moneyline × points × points × points,1,2,1,1,9.34,-9.41565938356136,,,1.0408,Too few independent filled games
+moneyline × points × points × points,2,2,1,1,54.0,-14.405898236594862,,,8.91,Too few independent filled games
+moneyline × points × points × points,4,2,1,1,17.42,-20.76534570123566,,,3.8644,Too few independent filled games
+moneyline × points × points × points × points × points × threes,2,2,1,1,19.37,-16.836146388487542,,,3.557,Too few independent filled games
+moneyline × spread,2,2,3,1,382.0,77.11518147059745,,,-286.74,Too few independent filled games
+moneyline × spread,3,2,1,1,3.0,58.999997728723685,,,-1.71,Too few independent filled games
+moneyline × spread,4,2,4,1,155.0,-30.177415916479234,,,49.89,Too few independent filled games
+moneyline × spread × total,1,2,7,6,242.0,17.88215341112342,-11.656608898916149,67.59156562514612,-38.269999999999996,Too few independent filled games
+moneyline × spread × total,2,2,6,4,546.0,-8.38849151707444,,,57.449999999999996,Too few independent filled games
+moneyline × spread × total,4,2,4,3,161.0,-21.699112348972292,,,38.19,Too few independent filled games
+moneyline × threes,1,2,1,1,39.96,-45.34134148735473,,,18.5923,Too few independent filled games
+moneyline × total,1,2,1412,617,229832.11,1.8216954486734764,-3.0433505645036303,6.649704946176486,508.3959999999986,Direction uncertain
+moneyline × total,2,2,1021,495,132151.77,-5.741379195723932,-11.410912840071404,0.1735661446038847,10276.797,Direction uncertain
+moneyline × total,3,2,671,328,76342.26,7.840660302020057,1.4164166501786049,13.995768054615889,-4429.7041,NO overvaluation signal
+moneyline × total,4,2,522,222,54595.990000000005,7.805660114534471,0.35611729834648526,14.684936556322473,-3144.0500999999995,NO overvaluation signal
+points × points,1,2,66,29,6339.78,-26.94115617202882,-40.09511510036887,-7.812707765017368,1794.2068000000002,NO undervaluation signal
+points × points,2,2,14,5,1420.9499999999998,53.99347107075159,12.569668221652535,79.88124009580507,-747.3601000000001,Too few independent filled games
+points × points,3,2,17,10,929.3700000000001,37.36579403304512,-30.67172114532854,65.52388139607427,-335.5117,Too few independent filled games
+points × points,4,2,1,1,39.03,66.6325710449983,,,-25.5258,Too few independent filled games
+points × points × points,1,2,2,1,31.92,60.384488648509816,,,-18.847499999999997,Too few independent filled games
+points × points × points,2,2,1,1,155.0,71.54344392388109,,,-108.875,Too few independent filled games
+points × points × points × points,2,2,1,1,125.0,-3.85323681992165,,,7.1321,Too few independent filled games
+points × points × points × points,3,2,1,1,22.01,-31.39903445078024,,,7.1799,Too few independent filled games
+points × points × points × points × points × rebounds,3,2,1,1,49.01,90.10951162509416,,,-43.3577,Too few independent filled games
+points × points × points × rebounds,1,2,1,1,11.58,-7.79489333328986,,,1.099,Too few independent filled games
+points × points × points × spread,3,2,1,1,51.53,-5.8042941977391,,,3.9396,Too few independent filled games
+points × points × points × total,1,2,1,1,20.0,88.6616819744888,,,-17.32,Too few independent filled games
+points × points × rebounds,1,2,2,1,881.24,-42.049361147998724,,,381.2441,Too few independent filled games
+points × points × threes,2,2,2,2,87.01,-28.278891049222516,,,26.3642,Too few independent filled games
+points × points × threes × threes,1,2,1,1,85.94,35.88788596326261,,,-29.7208,Too few independent filled games
+points × points × total,2,2,1,1,51.1,-3.1588911688472296,,,2.569,Too few independent filled games
+points × rebounds,1,2,3,2,225.02999999999997,-56.15212448131357,,,129.0282,Too few independent filled games
+points × rebounds,2,2,1,1,130.93,-25.736813403017578,,,35.4787,Too few independent filled games
+points × rebounds × threes,2,2,1,1,21.0,-23.12555898043684,,,5.29,Too few independent filled games
+points × spread,1,2,1,1,285.64,-44.40067500718263,,,130.3354,Too few independent filled games
+points × spread,2,2,1,1,19.02,52.59425024012436,,,-9.7716,Too few independent filled games
+points × spread,3,2,2,2,120.89,1.5181841224037873,,,0.1867000000000001,Too few independent filled games
+points × spread × total,3,2,1,1,96.0,78.97210249791411,,,-73.83,Too few independent filled games
+points × threes (same player),1,2,209,102,15813.39,10.217938685151648,-4.431090760211164,24.435332269438128,-1397.9677000000001,Direction uncertain
+points × threes (same player),2,2,93,54,10381.569999999998,27.25858078042919,10.684632566198156,41.89322139903552,-2685.0824000000002,NO overvaluation signal
+points × threes (same player),3,2,111,56,10142.740000000002,3.7235502372485985,-16.365460096550635,22.18012714579509,-243.3639,Direction uncertain
+points × threes (same player),4,2,45,31,4887.049999999998,-3.880913374090296,-30.154929166761345,17.399628602020616,261.91429999999997,Direction uncertain
+rebounds × spread × threes × total,1,2,1,1,5.0,-14.59639737510946,,,0.83,Too few independent filled games
+rebounds × threes,1,2,1,1,2.37,-30.939281223295318,,,0.7637,Too few independent filled games
+spread × threes × threes,1,2,1,1,14.0,-25.621436973676943,,,3.87,Too few independent filled games
+spread × total,1,2,55,27,8620.69,24.774565911606654,0.998942843872062,45.79292659637277,-1959.3582000000001,NO overvaluation signal
+spread × total,2,2,43,21,4113.9800000000005,-4.837307280867692,-32.99844161790208,36.26424017094177,280.58979999999997,Direction uncertain
+spread × total,3,2,31,23,6197.24,-2.920095353051572,-37.92820152291301,33.35121977152171,300.9045999999996,Direction uncertain
+spread × total,4,2,34,18,3697.4899999999993,17.879395680141137,-14.532322537063921,42.889672333861746,-586.5205,Too few independent filled games
+threes × threes,1,2,7,6,1291.5400000000002,12.345094620773521,-9.722171717789852,64.46716187347936,-136.8111,Too few independent filled games
+threes × threes × threes × threes × threes,1,2,1,1,120.33,-5.5191610871649,,,8.8493,Too few independent filled games
+assists × assists,2,3,1,1,202.39,-69.2626318818093,,,144.9093,Too few independent filled games
+assists × assists × assists × points,1,3,1,1,7.25,-59.094792000827056,,,4.4425,Too few independent filled games
+assists × assists × points × points × points × points × points × rebounds × threes,2,3,1,1,103.3,-5.27567471666427,,,8.2987,Too few independent filled games
+assists × assists × points × points × points × points × threes × threes,1,3,1,1,94.07,-6.7779344761804,,,8.9278,Too few independent filled games
+assists × moneyline,1,3,1,1,42.57,-29.03840703417937,,,13.3402,Too few independent filled games
+assists × moneyline,2,3,2,2,727.4,-37.1057705615683,,,286.4388,Too few independent filled games
+assists × moneyline,3,3,1,1,41.25,-18.920294156203312,,,8.8272,Too few independent filled games
+assists × points,1,3,15,4,977.2799999999999,3.3932474000501727,,,-11.542399999999985,Too few independent filled games
+assists × points,2,3,1,1,177.54,-80.182080750301,,,146.8447,Too few independent filled games
+assists × points,3,3,2,1,0.02,16.250000000000004,,,-0.0028,Too few independent filled games
+assists × points,4,3,1,1,22.55,61.01083356286171,,,-13.2713,Too few independent filled games
+assists × points × points × points × rebounds × threes × threes,1,3,1,1,61.0,-3.89947208375823,,,4.2,Too few independent filled games
+assists × points × points × rebounds × rebounds,1,3,1,1,93.0,-17.96719282495916,,,19.53,Too few independent filled games
+assists × points × rebounds,1,3,4,1,776.95,63.33458816176641,,,-475.0834,Too few independent filled games
+assists × points × rebounds × rebounds,2,3,1,1,91.0,-31.15079495090425,,,31.12,Too few independent filled games
+assists × points × rebounds × rebounds × threes × threes,2,3,1,1,390.63,41.54235839772742,,,-153.6298,Too few independent filled games
+assists × rebounds,1,3,12,7,1375.6600000000003,-22.992074213304427,-35.265375010849276,4.08045303467989,348.84029999999996,Too few independent filled games
+assists × rebounds,2,3,4,2,579.1899999999999,-23.687636651180334,,,151.0495,Too few independent filled games
+assists × rebounds,3,3,1,1,103.3,-4.881541687818121,,,7.8976,Too few independent filled games
+assists × threes,1,3,1,1,1.72,46.97301177777249,,,-0.77,Too few independent filled games
+assists × total,1,3,2,1,4.34,-52.234997645980584,,,2.3611,Too few independent filled games
+moneyline × points,1,3,47,22,5074.460000000001,-24.454210552446344,-34.254660681442566,-5.0754463961854865,1357.2118999999998,NO undervaluation signal
+moneyline × points,2,3,13,9,379.33,31.8502460594937,-21.144605007551654,49.97270471079047,-112.18099999999998,Too few independent filled games
+moneyline × points,3,3,12,10,409.49,17.226384817945124,-25.045826331888907,78.28218091958574,-60.891200000000005,Too few independent filled games
+moneyline × points,4,3,9,6,418.56,11.943899525340584,-15.155239836830383,56.71001382047788,-39.8244,Too few independent filled games
+moneyline × points × points,1,3,1,1,917.92,-43.3107209638967,,,417.9247,Too few independent filled games
+moneyline × points × points × points,4,3,1,1,17.42,-20.76534570123566,,,4.0353,Too few independent filled games
+moneyline × points × points × points × points × points × threes,2,3,1,1,19.37,-16.836146388487542,,,3.7465,Too few independent filled games
+moneyline × spread,2,3,3,1,382.0,77.11518147059745,,,-282.92,Too few independent filled games
+moneyline × spread,3,3,2,2,18.0,5.25000632547988,,,-0.4099999999999999,Too few independent filled games
+moneyline × spread,4,3,4,1,155.0,-30.177415916479234,,,51.440000000000005,Too few independent filled games
+moneyline × spread × total,1,3,8,7,241.0,16.758350615688183,-13.202884121320842,70.50644474937408,-33.01,Too few independent filled games
+moneyline × spread × total,2,3,7,5,562.0,-8.338124373546227,-17.044999447756688,61.8729864372382,64.46,Too few independent filled games
+moneyline × spread × total,4,3,4,3,160.0,-21.116044938770276,,,38.63,Too few independent filled games
+moneyline × threes,3,3,1,1,9.76,-31.2408647681022,,,3.2707,Too few independent filled games
+moneyline × total,1,3,1113,541,186799.32,1.6994374272388986,-4.088190083422044,7.264680500516996,2511.0083999999993,Direction uncertain
+moneyline × total,2,3,933,480,126776.01,-2.281272553744119,-8.547647828347971,3.872661387136272,6736.225200000003,Direction uncertain
+moneyline × total,3,3,635,321,73136.0,2.3829689111008387,-4.526136413980476,8.723183033015347,477.3160000000005,Direction uncertain
+moneyline × total,4,3,536,243,57457.45,11.814988753587489,4.970268532687024,18.63737178359545,-5038.7962,NO overvaluation signal
+points × points,1,3,51,25,4478.999999999999,-24.41995534067562,-36.91107311197534,-8.151584556925156,1199.2002999999997,NO undervaluation signal
+points × points,2,3,20,11,1677.06,30.733528281012607,-36.17285134571278,66.79789738841322,-475.9495,Too few independent filled games
+points × points,3,3,13,8,356.1,5.02209700876986,-40.07603062963144,62.583814505088135,-9.333200000000005,Too few independent filled games
+points × points,4,3,2,2,51.03,37.089344461812345,,,-17.798399999999997,Too few independent filled games
+points × points × points,1,3,2,1,31.92,60.384488648509816,,,-18.5321,Too few independent filled games
+points × points × points,2,3,1,1,155.0,71.54344392388109,,,-107.3456,Too few independent filled games
+points × points × points × points,3,3,1,1,22.01,-31.39903445078024,,,7.3975,Too few independent filled games
+points × points × points × points × points × rebounds × rebounds × spread × total,4,3,1,1,25.0,-33.62920179431781,,,9.17,Too few independent filled games
+points × points × points × rebounds,1,3,1,1,11.58,-7.79489333328986,,,1.2115,Too few independent filled games
+points × points × points × threes,2,3,2,1,10.209999999999999,53.93306562140025,,,-5.283200000000001,Too few independent filled games
+points × points × points × total,1,3,1,1,20.0,88.6616819744888,,,-17.12,Too few independent filled games
+points × points × rebounds,1,3,2,1,897.51,-42.08144725902911,,,397.5122,Too few independent filled games
+points × points × threes,2,3,1,1,87.0,-28.27741952207604,,,27.23,Too few independent filled games
+points × rebounds,1,3,3,2,225.02999999999997,-56.15212448131357,,,131.29219999999998,Too few independent filled games
+points × rebounds,2,3,1,1,130.93,-25.736813403017578,,,36.7681,Too few independent filled games
+points × rebounds × threes,2,3,1,1,21.0,-23.12555898043684,,,5.5,Too few independent filled games
+points × spread × total,3,3,1,1,96.0,78.97210249791411,,,-72.87,Too few independent filled games
+points × threes (same player),1,3,153,85,12329.44,8.878178933529245,-8.208682360868552,25.750865279278987,-804.5286999999998,Direction uncertain
+points × threes (same player),2,3,74,44,7731.81,15.138065515075047,-1.9212074509177508,30.970583900414947,-987.8178,Direction uncertain
+points × threes (same player),3,3,89,49,9780.48,-0.9495376433898811,-22.74961870596707,21.05882429754729,315.07410000000004,Direction uncertain
+points × threes (same player),4,3,41,27,5278.14,-11.536044724366892,-36.07180333800269,11.362819081457415,736.7316,Direction uncertain
+rebounds × threes,1,3,1,1,2.37,-30.939281223295318,,,0.7871,Too few independent filled games
+spread × threes × threes,1,3,1,1,14.0,-25.621436973676943,,,4.01,Too few independent filled games
+spread × total,1,3,41,19,5979.09,23.60021792498864,-5.7213360603831696,46.86050659436629,-1228.2313000000001,Too few independent filled games
+spread × total,2,3,40,25,4472.889999999999,-1.126592361011294,-26.496613967161377,42.64333320074033,185.79830000000004,Direction uncertain
+spread × total,3,3,33,22,6422.14,-7.81873403561695,-41.55170158894177,25.785902063029045,695.331,Direction uncertain
+spread × total,4,3,41,25,4295.8099999999995,25.765310952797847,-4.1283544443517695,47.148501323664,-978.0875000000001,Direction uncertain
+threes × threes,1,3,5,4,899.55,19.55136669571341,,,-151.6158,Too few independent filled games

@@ -1,0 +1,25 @@
+{
+  "selected_method": "power",
+  "training_results": [
+    {
+      "method": "proportional",
+      "checkpoints": 227,
+      "games": 192,
+      "equal_game_brier": 0.20449335254331635
+    },
+    {
+      "method": "additive",
+      "checkpoints": 227,
+      "games": 192,
+      "equal_game_brier": 0.19697427191877093
+    },
+    {
+      "method": "power",
+      "checkpoints": 227,
+      "games": 192,
+      "equal_game_brier": 0.19318348702126623
+    }
+  ],
+  "frozen_at": 1795121327.56484,
+  "later_pricing_not_started": true
+}

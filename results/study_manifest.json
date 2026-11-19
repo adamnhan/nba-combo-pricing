@@ -1,0 +1,193 @@
+{
+  "study_date": "2026-11-19",
+  "scope": "NBA in-play same-game combination pricing research",
+  "sources": [
+    {
+      "source_component": "nba_full_game_combo_pricer.py",
+      "target": "src/nba_combo_pricing/pricer.py",
+      "original_sha256": "ccb9a3da7aa87d88a542d6cdf70de73c59add1932dd3106c31f561eebd571b5a",
+      "packaged_sha256": "6e719cebe01d1bb6ac0a0dbff9987a6eb7cb7d7a7f0e602f3a7c0a602264344e",
+      "adaptation": "Portable package imports and explicit checkpoint constants only."
+    },
+    {
+      "source_component": "nba_live_simulator.py",
+      "target": "src/nba_combo_pricing/simulator.py",
+      "original_sha256": "ea0922c8f4df75d886a52b4fdf11c8c06d410e71eec2a4ba1f3acb97ceccea39",
+      "packaged_sha256": "1d04409717b1c57b349182aff0ea8a26c63d93cc734b9c40d571a2fe6d480235",
+      "adaptation": "Portable package imports and explicit checkpoint constants only."
+    },
+    {
+      "source_component": "nba_live_state.py",
+      "target": "src/nba_combo_pricing/state.py",
+      "original_sha256": "f1ccad68ef7af3eefd801b6e31d7a25a53b0f9e2490fc862a2aa2d0684d23533",
+      "packaged_sha256": "c45fed11fa2b9c16c66e1370bcd398f08f4da57ea604c6fd1e710cb54bd2cb89",
+      "adaptation": "Portable package imports and explicit checkpoint constants only."
+    },
+    {
+      "source_component": "frozen_model",
+      "target": "models/fitted_model.npz",
+      "sha256": "25f5dc57dcae0c707cde4f558b08b074db7f4dbfe471bb65cd2a9f039a1a7652"
+    }
+  ],
+  "aggregate_exports": [
+    {
+      "path": "results/real_trade_backtest.csv",
+      "rows": 204,
+      "source_component": "summary.csv",
+      "source_sha256": "91db88fc714e990d0ebefb34ebe7c8fab6d1bb9be0a17f50d686f6ce69cb5139",
+      "packaged_sha256": "d6cc2b742d2a62aaebb262f33dd1f793354a4f49b9aa0738377e88fccc4d60bf"
+    },
+    {
+      "path": "results/real_trade_coverage.csv",
+      "rows": 237,
+      "source_component": "coverage.csv",
+      "source_sha256": "eb311a1dc1554ac21b5f93bac19c9c5852768212af3c52aef862eba942e9bba5",
+      "packaged_sha256": "aea221a45dae35d37bb3157b8f8e9aa55db5d0cded0706d3813b2d4071f62de6"
+    },
+    {
+      "path": "results/family_quarter_maker.csv",
+      "rows": 143,
+      "source_component": "maker_fill_scorecard.csv",
+      "source_sha256": "348811830d4d07f125fee5b7b7a1c376ac651760c5cc5e8f7371c550f52ea343",
+      "packaged_sha256": "e21c9910d7a1ee8aed36f8dc68796a4b68097645421c7c3709e44eb8e7869d11"
+    },
+    {
+      "path": "results/non_player_calibration.csv",
+      "rows": 12,
+      "source_component": "non_player_summary.csv",
+      "source_sha256": "54d3ab24f786d1aeb990b9f8fe61ef9a20b9d16309b45bd981d3dacb8b4cf861",
+      "packaged_sha256": "8c53230601548f37985743e19e93edc513553fc136a6a7ebeb985df4145f0184"
+    },
+    {
+      "path": "results/expanded_player_prop_calibration.csv",
+      "rows": 24,
+      "source_component": "expanded_prop_all_trade_calibration.csv",
+      "source_sha256": "34630627bf0f47e3aec40886886ca4de23da7d642bd8bbae30fc0a64ffe2cbd6",
+      "packaged_sha256": "6a4166603a68baa29bbc3777d5be2ee85faa26f1fbc1348312cb163c385d2d68"
+    },
+    {
+      "path": "results/synthetic_spread_total_calibration.csv",
+      "rows": 20,
+      "source_component": "calibration_by_direction_quarter.csv",
+      "source_sha256": "f1195607ea232b9513feedf25e3a72095f4b55c4949a2c0ca1c84e6500162b69",
+      "packaged_sha256": "27605e28d9976a7a7872090a0e11631a4a0e31b9e2cb30d8ea0cb18846be1043"
+    },
+    {
+      "path": "results/synthetic_spread_total_coverage.csv",
+      "rows": 5,
+      "source_component": "coverage.csv",
+      "source_sha256": "9fd7b4a14836542c6fbbf9629f6dbf88e207a403ff8942f30c5fb48f26a31190",
+      "packaged_sha256": "b09fef0189fc4d292ad65c6fdfa53e0403be0e503b067a2b2f8f8d32e98f7208"
+    },
+    {
+      "path": "results/synthetic_spread_total_legs.csv",
+      "rows": 10,
+      "source_component": "individual_leg_calibration.csv",
+      "source_sha256": "0e14c71d0ad32646ec0b01a8fd275d3e73f3634b650bfb42d571eb11e214372b",
+      "packaged_sha256": "a3ee170187e2b415417f9b1fd89636ca2b98db7ad106b639a5dd5fcc089c1f64"
+    },
+    {
+      "path": "results/synthetic_joint_scores.csv",
+      "rows": 5,
+      "source_component": "joint_distribution_scores.csv",
+      "source_sha256": "ca6503f60c73ba1a7701e2f2704162b858dc92ca1e05e68a3172688b96582c5f",
+      "packaged_sha256": "e466df427ceed009a23e1df0cafea77da8f5c997ddd31ff881d652ce9b8546df"
+    },
+    {
+      "path": "results/synthetic_reliability_bins.csv",
+      "rows": 167,
+      "source_component": "reliability_bins.csv",
+      "source_sha256": "8bdd03b63faf4eb63f53e974949bcb82dd6b6d346b53c26b82c62876c730a199",
+      "packaged_sha256": "95a3f8f8ec36fb0dc03a8e38c5b43fe71c9ba0cb1b5a795332a12550c5dc6057"
+    },
+    {
+      "path": "results/margin_removal_walkforward.csv",
+      "rows": 39,
+      "source_component": "paired_results.csv",
+      "source_sha256": "393725756c283a5755b76e80376c0b3565df663c363ee98f63f480e1f5bbd2a5",
+      "packaged_sha256": "ec925f7f16c5e2f6007594fc4a3d71bbb37368f61c2df593b42d8b01d739cb4c"
+    },
+    {
+      "path": "results/quote_age_audit.csv",
+      "rows": 4,
+      "source_component": "quote_age_and_score_changes.csv",
+      "source_sha256": "ced241c4938b5c4cdab2b56fd080d11ce9affa3a6ce704f17e3da120c268a8d4",
+      "packaged_sha256": "95f7f4d54ede23e0d6535467fd05163eaca533aedbaa1dfd15c76dd82692d066"
+    },
+    {
+      "path": "results/nearby_snapshot_changes.csv",
+      "rows": 4,
+      "source_component": "nearby_snapshot_changes.csv",
+      "source_sha256": "81e6c1846b228e1a3315076a59636fc86b35e512b4ca16e46084c064197c2912",
+      "packaged_sha256": "ca05f745e853356899e5ae0a81d35570128498ed1c8d3d886dd77caff7c130fb"
+    },
+    {
+      "path": "results/premium_sensitivity.csv",
+      "rows": 30,
+      "source_component": "policies.csv",
+      "source_sha256": "2a1a2fefebcec89dcedb412a22369b57053e401b26b360dea9c364be4b85f997",
+      "packaged_sha256": "4ee3a8e25e805e58fa5c818a030c27cd8ca30a5eb892fb49c7ef14ae20f915f3"
+    },
+    {
+      "path": "results/premium_sensitivity_by_quarter.csv",
+      "rows": 120,
+      "source_component": "policies_by_quarter.csv",
+      "source_sha256": "7cdaa974f71f965e8d21ef7dfc5eea7600d3f39b1b897b3731d98ff4a8354832",
+      "packaged_sha256": "bcdd16d44b800293d9a34991a24be3b58b28158f73baa3d9e3c7e9d07f92c72d"
+    },
+    {
+      "path": "results/q4_skip_comparison.csv",
+      "rows": 2,
+      "source_component": "q4_skip_comparison.csv",
+      "source_sha256": "3dfe8391cb086cd4d78b995a3a31690303b53f2c0b77e98efee88559e30ecad8",
+      "packaged_sha256": "f2a15263190e51634b254c2bb9615400bc34ac148c59ed264134b096185bbd03"
+    }
+  ],
+  "study_populations": {
+    "consolidated_actual_trades": {
+      "eligible_trades": 28064,
+      "games": 1233,
+      "moneyline_total_trades": 20496,
+      "moneyline_total_games": 1040
+    },
+    "synthetic_spread_total": {
+      "planned_checkpoints": 4077,
+      "planned_games": 1057,
+      "priceable_checkpoints": 3792,
+      "priceable_games": 1056
+    },
+    "margin_removal_temporal_test": {
+      "earlier_checkpoints": 227,
+      "earlier_games": 192,
+      "later_checkpoints": 242,
+      "later_games": 206,
+      "excluded_same_date_boundary_games": 2,
+      "selection": "Minimum earlier equal-game binary Brier score on original 50–80% cover+over cases; freeze before later pricing."
+    },
+    "expanded_player_props": {
+      "new_undecided_leg_trades": 14473,
+      "new_games": 382,
+      "season": "2025–26",
+      "quarters": [
+        "Q3",
+        "Q4"
+      ]
+    }
+  },
+  "reproduction": {
+    "offline": "Bundled model, illustrative examples, tests, aggregate tables and figure generation.",
+    "historical": "Full independent reruns require separately acquired market histories and timestamped NBA play-by-play; raw vendor histories are not included."
+  },
+  "model_training_seasons": [
+    "2022–23",
+    "2023–24",
+    "2024–25"
+  ],
+  "validation": [
+    "Frozen model SHA256 verified",
+    "Original baseline fills and prices reproduced",
+    "One shared game cap including fees verified",
+    "Temporal test has disjoint game IDs and strictly later primary test dates",
+    "No synthetic executions or P&L labels added"
+  ]
+}

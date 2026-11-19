@@ -1,0 +1,22 @@
+name: Tests
+on: [push, pull_request]
+permissions:
+  contents: read
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ['3.11', '3.12']
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v7
+        with:
+          python-version: ${{ matrix.python-version }}
+      - run: python -m pip install -e '.[dev]'
+      - run: python -m pytest
+      - run: python -m nba_combo_pricing.demo
+      - run: python -m nba_combo_pricing.backtest examples/illustrative_trades.jsonl --premium-cents 3
+      - run: python analysis/render_figures.py

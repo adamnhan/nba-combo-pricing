@@ -1,0 +1,6 @@
+quarter,planned_checkpoints,planned_games,priced_checkpoints,priced_games,statuses
+ALL,4077,1057,3792,1056,"{""estimated"": 3792, ""split_seed_disagreement"": 260, ""midpoints_incompatible_with_simulated_support"": 21, ""sample_boundary"": 4}"
+1,1034,1034,974,974,"{""estimated"": 974, ""split_seed_disagreement"": 60}"
+2,1021,1021,946,946,"{""estimated"": 946, ""split_seed_disagreement"": 74, ""sample_boundary"": 1}"
+3,1013,1013,947,947,"{""estimated"": 947, ""split_seed_disagreement"": 65, ""midpoints_incompatible_with_simulated_support"": 1}"
+4,1009,1009,925,925,"{""estimated"": 925, ""split_seed_disagreement"": 61, ""midpoints_incompatible_with_simulated_support"": 20, ""sample_boundary"": 3}"
